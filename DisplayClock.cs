@@ -9,7 +9,7 @@ namespace Rookies.Events
         }
         public void ShowClock(object clock, ClockEventArgs clockEventArgs)
         {
-            System.Console.WriteLine($"{clockEventArgs.hour} : {clockEventArgs.minute} : {clockEventArgs.second}  ");
+            System.Console.WriteLine($"{clockEventArgs.hour} : {clockEventArgs.minute} : {clockEventArgs.second}");
         }
     }
 }

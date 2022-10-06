@@ -4,9 +4,7 @@ namespace Rookies.Events
     public class Clock
     {
         private readonly int _second;
-
         public delegate void clockTickHandler(object clock, ClockEventArgs clockEventArgs);
-
         public event clockTickHandler clockTick;
         protected void OnTick(object clock, ClockEventArgs clockEventArgs)
         {
